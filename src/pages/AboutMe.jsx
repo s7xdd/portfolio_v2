@@ -31,7 +31,7 @@ const About = () => {
 				exit={{ opacity: 0 }}
 				className="container mx-auto"
 			>
-				<AboutClients />
+
 			</motion.div>
 		</AboutMeProvider>
 	);

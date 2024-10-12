@@ -10,6 +10,7 @@ import mongodb from "../../images/tools/mongodb.svg";
 import nodejs from "../../images/tools/nodejs.svg";
 import react from "../../images/tools/react.svg";
 import tailwindcss from "../../images/tools/tailwindcss.svg";
+import typescript from '../../images/tools/typescript.svg'
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();
@@ -84,12 +85,12 @@ const AppBanner = () => {
               <h5 className="font-semibold  text-ternary-dark dark:text-primary-light">Tools I use</h5>
             </div>
             <div className="border rounded-lg bg-gray-600 mt-5">
-              <ul className="flex justify-center p-4 gap-10 px-8">
-                <li>
-                  <img src={css3} alt="" />
-                </li>
+              <ul className="flex justify-center p-5 gap-10 px-8">
                 <li>
                   <img src={javascript} alt="" />
+                </li>
+                <li>
+                  <img src={typescript} alt="" />
                 </li>
                 <li>
                   <img src={react} alt="" />
@@ -98,10 +99,19 @@ const AppBanner = () => {
                   <img src={nodejs} alt="" />
                 </li>
                 <li>
+                  <img src={expressjs} alt="" />
+                </li>
+                <li>
                   <img src={mongodb} alt="" />
                 </li>
                 <li>
                   <img src={tailwindcss} alt="" />
+                </li>
+                <li>
+                  <img src={css3} alt="" />
+                </li>
+                <li>
+                  <img src={figma} alt="" />
                 </li>
               </ul>
             </div>
