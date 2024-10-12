@@ -1,24 +1,28 @@
-import profileImage from '../../images/profile.jpeg';
-import { useContext } from 'react';
-import AboutMeContext from '../../context/AboutMeContext';
+import profileImage from "../../images/profile.jpeg";
+import { useContext } from "react";
+import AboutMeContext from "../../context/AboutMeContext";
 
 const AboutMeBio = () => {
-	const { aboutMe } = useContext(AboutMeContext);
+  const { aboutMe } = useContext(AboutMeContext);
 
-	return (
-		<div className="block sm:flex sm:gap-10 mt-10 sm:mt-20">
-			<div className="font-general-regular flex flex-col justify-center w-full sm:w-3/4 font-semibold">
-				{aboutMe.map((bio) => (
-					<p
-						className="mb-4 text-ternary-dark dark:text-ternary-light text-lg flex justify-center"
-						key={bio.id}
-					>
-						{bio.bio}
-					</p>
-				))}
-			</div>
-		</div>
-	);
+  return (
+    <div className="">
+      <div className="font-general-regular font-semibold mt-14 text-center">
+        <h1 className="text-4xl">Hello World! 👋</h1>
+        <p className="mt-10">
+        I'm Shamil, a Computer Science grad with a passion for
+          transforming lines of code into seamless user experiences. When I'm
+          not busy debugging, you can
+          find me dreaming up the next big thing in web development. I
+          specialize in making the web a more beautiful place with my React
+          wizardry. From sleek front-end designs to smooth user interactions,
+          I'm all about creating websites that not only look good but feel good
+          to use. Oh, and I have a minor addiction to coffee and memes, so feel
+          free to send any my way!
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default AboutMeBio;
