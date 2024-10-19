@@ -22,7 +22,7 @@ const AppBanner = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ ease: "easeInOut", duration: 0.9, delay: 0.2 }}
-        className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 md:mt-7"
+        className="flex flex-col sm:justify-between items-center sm:flex-row md:mt-7"
       >
         <div className="">
           <div className="image  flex justify-center">
@@ -63,7 +63,7 @@ const AppBanner = () => {
                 speed={30}
                 style={{ fontSize: "2em", display: "inline-block" }}
                 repeat={Infinity}
-                className="font-general-medium mt-4 text-lg md:text-xl lg:text-1xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
+                className="font-general-medium mt-3 text-lg md:text-xl lg:text-1xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
               />
             </div>
 
@@ -71,7 +71,7 @@ const AppBanner = () => {
               <a
                 download="Mohammed_Shamil.pdf"
                 href="/files/Mohammed_Shamil.pdf"
-                className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+                className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-8 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
                 aria-label="Download Resume"
               >
                 <FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
@@ -81,11 +81,11 @@ const AppBanner = () => {
               </a>
             </div>
           </div>
-          <div className="text-center mt-10">
+          <div className="text-center mt-5">
             <div>
               <h5 className="font-semibold  text-ternary-dark dark:text-primary-light">Tools I use</h5>
             </div>
-            <div className="border rounded-lg bg-gray-600 mt-5">
+            <div className="border rounded-lg bg-gray-600 mt-4">
               <ul className="flex justify-center p-5 gap-10 px-8">
                 <li>
                   <img src={javascript} alt="" />
