@@ -86,7 +86,7 @@ const AppBanner = () => {
             </div>
             <div className="border rounded-lg bg-gray-600 mt-5">
               <ul className="flex justify-center p-5 gap-10 px-8">
-                <li>
+                <li> 
                   <img src={javascript} alt="" />
                 </li>
                 <li>

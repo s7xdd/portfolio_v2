@@ -237,6 +237,15 @@ body {
 	height: 85vh;
 }
 
+li{
+	transition: transform 0.3s ease-in-out;
+}
+
+li:hover{
+	transform: scale(1.2);
+  	transition: transform 0.3s ease-in-out;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;
