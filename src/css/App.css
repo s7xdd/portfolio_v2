@@ -246,6 +246,10 @@ li:hover{
   	transition: transform 0.3s ease-in-out;
 }
 
+.profile{
+	height: 500px;
+}
+
 @keyframes fadeIn {
 	0% {
 		opacity: 0;

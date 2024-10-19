@@ -11,6 +11,7 @@ import nodejs from "../../images/tools/nodejs.svg";
 import react from "../../images/tools/react.svg";
 import tailwindcss from "../../images/tools/tailwindcss.svg";
 import typescript from '../../images/tools/typescript.svg'
+import profile from '../../images/profile.jpeg'
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();
@@ -27,8 +28,8 @@ const AppBanner = () => {
           <div className="image  flex justify-center">
             {/* <img className="object-cover" src={Profile} height={300} width={300} alt="image description"/> */}
             <img
-              src="https://placehold.co/300x300"
-              className="flex justify-center mb-12"
+              src={profile}
+              className="flex justify-center mb-12 profile"
               alt=""
             />
           </div>
@@ -86,7 +87,7 @@ const AppBanner = () => {
             </div>
             <div className="border rounded-lg bg-gray-600 mt-5">
               <ul className="flex justify-center p-5 gap-10 px-8">
-                <li> 
+                <li>
                   <img src={javascript} alt="" />
                 </li>
                 <li>

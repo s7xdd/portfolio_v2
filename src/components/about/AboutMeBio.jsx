@@ -8,9 +8,9 @@ import mongodbbig from "../../images/tools/mongodbbig.svg";
 import nodejsbig from "../../images/tools/nodejs-big.svg";
 import react from "../../images/tools/react.svg";
 import tailwindcss from "../../images/tools/tailwindcss.svg";
-import typescript from '../../images/tools/typescript.svg';
-import typescriptbig from '../../images/tools/typescript-big.svg';
-import javascriptbig from '../../images/tools/javascript-big.svg';
+import typescript from "../../images/tools/typescript.svg";
+import typescriptbig from "../../images/tools/typescript-big.svg";
+import javascriptbig from "../../images/tools/javascript-big.svg";
 
 const AboutMeBio = () => {
   const { aboutMe } = useContext(AboutMeContext);
@@ -33,23 +33,39 @@ const AboutMeBio = () => {
       <div className="flex flex-col justify-center mt-20 text-3xl">
         <div className="text-center">
           <h1>My Skills</h1>
-          <div className=""> 
+          <div className="">
             <div className="flex justify-center gap-10">
-				<div className="skills"><img src={javascriptbig} alt="" /></div>
-				<div className="skills"><img src={typescriptbig} alt="" /></div>
-				<div className="skills"><img src={nodejsbig} alt="" /></div>
-				<div className="skills"><img src={expressjsbig} alt="" /></div>
+              <div className="skills">
+                <img src={javascriptbig} alt="" />
+              </div>
+              <div className="skills">
+                <img src={typescriptbig} alt="" />
+              </div>
+              <div className="skills">
+                <img src={nodejsbig} alt="" />
+              </div>
+              <div className="skills">
+                <img src={expressjsbig} alt="" />
+              </div>
             </div>
-			<div className="flex justify-center gap-10">
-				<div className="skills"><img src={mongodbbig} alt="" /></div>
-				<div className="skills"><img src={figmabig} alt="" /></div>
-				<div className="skills"><img src={css3big} alt="" /></div>
-				<div className="skills"><img src={javascriptbig} alt="" /></div>
-			</div>
+            <div className="flex justify-center gap-10">
+              <div className="skills">
+                <img src={mongodbbig} alt="" />
+              </div>
+              <div className="skills">
+                <img src={figmabig} alt="" />
+              </div>
+              <div className="skills">
+                <img src={css3big} alt="" />
+              </div>
+              <div className="skills">
+                <img src={javascriptbig} alt="" />
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
