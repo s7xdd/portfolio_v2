@@ -1,6 +1,4 @@
-import profileImage from "../../images/profile.jpeg";
-import { useContext } from "react";
-import AboutMeContext from "../../context/AboutMeContext";
+import React from "react";
 import css3big from "../../images/tools/css3-big.svg";
 import expressjsbig from "../../images/tools/express-big.svg";
 import figmabig from "../../images/tools/figma-big.svg";
@@ -11,14 +9,12 @@ import tailwindcss from "../../images/tools/tailwindcss.svg";
 import typescriptbig from "../../images/tools/typescript-big.svg";
 import javascriptbig from "../../images/tools/javascript-big.svg";
 
-const AboutMeBio = () => {
-  const { aboutMe } = useContext(AboutMeContext);
-
+const Aboutme = () => {
   return (
     <div className="text-ternary-dark dark:text-primary-light">
       <div className="flex flex-col justify-center font-general-regular font-semibold mt-14 text-center">
         <h1 className="text-4xl">Hello World! 👋</h1>
-        <p className="mt-10">
+        <p className="mt-10 container">
           I'm Shamil, a Computer Science grad with a passion for transforming
           lines of code into seamless user experiences. When I'm not busy
           debugging, you can find me dreaming up the next big thing in web
@@ -76,10 +72,10 @@ const AboutMeBio = () => {
               </div>
             </div>
           </div>
-          </div>
         </div>
       </div>
+    </div>
   );
 };
 
-export default AboutMeBio;
+export default Aboutme;

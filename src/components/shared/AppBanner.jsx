@@ -63,7 +63,7 @@ const AppBanner = () => {
                 speed={30}
                 style={{ fontSize: "2em", display: "inline-block" }}
                 repeat={Infinity}
-                className="font-general-medium mt-3 text-lg md:text-xl lg:text-1xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
+                className="font-general-medium mt-4 text-lg md:text-xl lg:text-1xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
               />
             </div>
 
@@ -81,7 +81,7 @@ const AppBanner = () => {
               </a>
             </div>
           </div>
-          <div className="text-center mt-5">
+          {/* <div className="text-center mt-5">
             <div>
               <h5 className="font-semibold  text-ternary-dark dark:text-primary-light">Tools I use</h5>
             </div>
@@ -116,7 +116,7 @@ const AppBanner = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </motion.section>
     </div>

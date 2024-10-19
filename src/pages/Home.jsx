@@ -4,6 +4,7 @@ import ProjectsGrid from "../components/projects/ProjectsGrid";
 import { ProjectsProvider } from "../context/ProjectsContext";
 import Button from "../components/reusable/Button";
 import AboutMeBio from "../components/about/AboutMeBio";
+import Aboutme from "../components/about/Aboutme";
 
 const Home = () => {
   return (
@@ -11,6 +12,10 @@ const Home = () => {
       <div className="banner">
         <AppBanner />
       </div>
+
+	  <div className="about-me">
+		<Aboutme/>
+	  </div>
 
       <ProjectsProvider>
         <ProjectsGrid></ProjectsGrid>
