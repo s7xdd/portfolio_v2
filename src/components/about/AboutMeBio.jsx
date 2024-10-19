@@ -26,8 +26,7 @@ const AboutMeBio = () => {
           development. I specialize in making the web a more beautiful place
           with my React wizardry. From sleek front-end designs to smooth user
           interactions, I'm all about creating websites that not only look good
-          but feel good to use. Oh, and I have a minor addiction to coffee and
-          memes, so feel free to send any my way!
+          but feel good to use.
         </p>
       </div>
 
