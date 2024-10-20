@@ -93,7 +93,7 @@ export const projectsData = [
 		title: 'Book my Hotel',
 		category: 'Full stack',
 		img: Hotel,
-		href: "https://virtualworld-s7xdd.netlify.app/",
+		href: "https://github.com/s7xdd/BookMyHotel",
 	},
 	{
 		id: 5,
