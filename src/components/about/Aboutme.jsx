@@ -25,12 +25,10 @@ const Aboutme = () => {
         <p className="mt-10 container">
           I'm Mohammed, a computer science graduate with a passion for
           transforming lines of code into seamless{" "}
-          <span className="">user experiences</span>. When I'm not busy
-          debugging, you can find me dreaming up the next big thing in web
-          development. I specialize in making the web a more beautiful place
-          with my React wizardry. From sleek front-end designs to smooth user
-          interactions, I'm all about creating websites that not only look good
-          but feel good to use.
+          user experiences. Having a solid foundation
+          in web development technologies, particularly React, Node.js, and
+          MongoDB, I am eager to bring my skills into real world organisations so as
+          to help develop and improve existing systems.
         </p>
       </div>
       <div className="flex flex-col justify-center mt-20 text-3xl">
