@@ -4,13 +4,19 @@ import Fashion from '../images/fashion1.png';
 import Hotel from '../images/bookmyhotel1.png';
 import Blog from '../images/blog1.png';
 import Web3 from '../images/web3.png';
+import Furniture from '../images/Furniture.jpg'
+import Hotel1 from '../images/Hotel.jpg'
+import Manage from '../images/Manage.jpg'
+import Newsportal from '../images/News Portal.jpg'
+import Reactnews from '../images/React News.jpg'
+import Android from '../images/Android.png'
 
 export const projectsData = [
 	{
 		id: 1,
 		title: 'Furniture Store',
 		category: 'React',
-		img: Landing,
+		img: Furniture,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
 			publishDate: 'Jul 26, 2021',
@@ -22,7 +28,7 @@ export const projectsData = [
 		id: 1,
 		title: 'News Portal',
 		category: 'React',
-		img: Landing,
+		img: Newsportal,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
 			publishDate: 'Jul 26, 2021',
@@ -34,7 +40,7 @@ export const projectsData = [
 		id: 1,
 		title: 'Hotelier',
 		category: 'React',
-		img: Landing,
+		img: Hotel1,
 		ProjectHeader: {
 			title: 'Project Management UI - From Context',
 			publishDate: 'Jul 26, 2021',
@@ -65,7 +71,7 @@ export const projectsData = [
 		id: 2,
 		title: 'Manage',
 		category: 'React',
-		img: Fashion,
+		img: Manage,
 		href: "https://landing1-s7xdd.netlify.app/",
 	},
 	{
@@ -79,7 +85,7 @@ export const projectsData = [
 		id: 4,
 		title: 'News App',
 		category: 'Full stack',
-		img: Hotel,
+		img: Reactnews,
 		href: "https://react-news-s7xdd.netlify.app/",
 	},
 	{
@@ -100,7 +106,7 @@ export const projectsData = [
 		id: 5,
 		title: 'Age Calculator',
 		category: 'Mobile Application',
-		img: Web3,
+		img: Android,
 		href: "https://github.com/s7xdd/AgeCounter",
 	},
 ];
