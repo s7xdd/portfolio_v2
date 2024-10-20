@@ -11,7 +11,7 @@ import nodejs from "../../images/tools/nodejs.svg";
 import react from "../../images/tools/react.svg";
 import tailwindcss from "../../images/tools/tailwindcss.svg";
 import typescript from '../../images/tools/typescript.svg'
-import profile from '../../images/profile.jpeg'
+import profile from '../../images/profile.jpg'
 import linkedin from '../../images/linkedin.svg'
 import github from '../../images/github.svg'
 
@@ -31,7 +31,7 @@ const AppBanner = () => {
             {/* <img className="object-cover" src={Profile} height={300} width={300} alt="image description"/> */}
             <img
               src={profile}
-              className="flex justify-center mb-12 h-auto w-96"
+              className="flex justify-center mb-12 h-auto profile"
               alt=""
             />
           </div>
