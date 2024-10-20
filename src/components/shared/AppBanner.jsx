@@ -88,7 +88,7 @@ const AppBanner = () => {
                   <li><img src={linkedin} alt="" /></li>
                 </a>
                 <a href="https://www.github.com/s7xdd">
-                  <li><img src={github} alt="" /></li>
+                  <li><img src={github} alt="" className="bg-white"/></li>
                 </a>
               </ul>
             </div>
