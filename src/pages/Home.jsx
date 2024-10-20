@@ -8,19 +8,16 @@ import Aboutme from "../components/about/Aboutme";
 
 const Home = () => {
   return (
-    <div className="container mx-auto">
-      <div className="banner">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="banner mb-10">
         <AppBanner />
       </div>
-
-	  <div className="about-me">
-		<Aboutme/>
-	  </div>
-
+      <div className="about-me mb-10">
+        <Aboutme />
+      </div>
       <ProjectsProvider>
-        <ProjectsGrid></ProjectsGrid>
+        <ProjectsGrid />
       </ProjectsProvider>
-
       <div className="mt-8 sm:mt-10 flex justify-center">
         <Link
           to="/projects"

@@ -27,11 +27,11 @@ const AppBanner = () => {
         className="flex flex-col sm:justify-between items-center sm:flex-row md:mt-7"
       >
         <div className="">
-          <div className="image  flex justify-center">
+          <div className="flex justify-center">
             {/* <img className="object-cover" src={Profile} height={300} width={300} alt="image description"/> */}
             <img
               src={profile}
-              className="flex justify-center mb-12 profile"
+              className="flex justify-center mb-12 h-auto w-96"
               alt=""
             />
           </div>
@@ -83,7 +83,7 @@ const AppBanner = () => {
               </a>
             </div>
             <div className="socials flex flex-col ">
-              <ul className="flex gap-10 justify-center mt-10">
+              <ul className="flex gap-10 justify-center mt-16 md:mt-10 lg:mt-10">
                 <a href="https://www.linkedin.com/in/kmshamil">
                   <li><img src={linkedin} alt="" /></li>
                 </a>

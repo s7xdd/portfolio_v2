@@ -20,7 +20,7 @@ import tailwindcssbig from "../../images/tools/tailwindcss.svg";
 const Aboutme = () => {
   return (
     <div className="text-ternary-dark dark:text-primary-light">
-      <div className="flex flex-col justify-center font-general-regular font-semibold mt-14 text-center">
+      <div className="flex flex-col justify-center font-general-regular font-semibold sm:mt-20 text-center">
         <h1 className="text-4xl">Hello World! 👋</h1>
         <p className="mt-10 container">
           I'm Mohammed, a computer science graduate with a passion for
@@ -28,7 +28,7 @@ const Aboutme = () => {
           user experiences. Having a solid foundation
           in web development technologies, particularly React, Node.js, and
           MongoDB, I am eager to bring my skills into real world organisations so as
-          to help develop and improve existing systems.
+          to help develop and improve existing systems. 
         </p>
       </div>
       <div className="flex flex-col justify-center mt-20 text-3xl">
