@@ -21,10 +21,10 @@ const Aboutme = () => {
   return (
     <div className="text-ternary-dark dark:text-primary-light">
       <div className="flex flex-col justify-center font-general-regular font-semibold mt-14 text-center">
-        <h1 className="text-4xl">Hello World! </h1>
+        <h1 className="text-4xl">Hello World! 👋</h1>
         <p className="mt-10 container">
-          I'm Shamil, a Computer Science grad with a passion for transforming
-          lines of code into seamless user experiences. When I'm not busy
+          I'm Mohammed, a computer science graduate with a passion for transforming
+          lines of code into seamless <span className="">user experiences</span>. When I'm not busy
           debugging, you can find me dreaming up the next big thing in web
           development. I specialize in making the web a more beautiful place
           with my React wizardry. From sleek front-end designs to smooth user
@@ -36,7 +36,7 @@ const Aboutme = () => {
         <div className="flex flex-col justify-center text-center">
           <h1>My Skills</h1>
           <div className="flex justify-center">
-          <div className="mt-10">
+          <div className="mt-10 skills">
             <img src={htmlbig} alt="HTML" className="p-5 " />
             <img src={css3big} alt="CSS3" className="p-5" />
             <img src={javascriptbig} alt="JavaScript" className="p-5" />
