@@ -79,7 +79,7 @@ export const projectsData = [
 		title: 'Blog App',
 		category: 'Full stack',
 		img: Blog,
-		href: "https://virtualworld-s7xdd.netlify.app/",
+		href: "https://github.com/s7xdd/blog",
 	},
 	{
 		id: 4,
