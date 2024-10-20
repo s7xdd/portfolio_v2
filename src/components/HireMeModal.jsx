@@ -2,12 +2,26 @@ import { motion } from 'framer-motion';
 import { FiX } from 'react-icons/fi';
 import Button from './reusable/Button';
 
-const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+import { FiPhone, FiMapPin, FiMail } from 'react-icons/fi';
+
+const contacts = [
+	{
+		id: 1,
+		name: 'Jumeirah 3, Dubai, United Arab Emirates',
+		icon: <FiMapPin />,
+	},
+	{
+		id: 2,
+		name: 'kmshamil123@gmail.com',
+		icon: <FiMail />,
+	},
+	{
+		id: 3,
+		name: '971 55 5347863',
+		icon: <FiPhone />,
+	},
 ];
+
 
 const HireMeModal = ({ onClose, onRequest }) => {
 	return (
@@ -25,8 +39,8 @@ const HireMeModal = ({ onClose, onRequest }) => {
 				<div className="modal-wrapper flex items-center z-30">
 					<div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative">
 						<div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
-							<h5 className=" text-primary-dark dark:text-primary-light text-xl">
-								What project are you looking for?
+							<h5 className=" text-primary-dark dark:text-primary-light text-xl ml-2">
+								Contact Details
 							</h5>
 							<button
 								onClick={onClose}
@@ -36,67 +50,20 @@ const HireMeModal = ({ onClose, onRequest }) => {
 							</button>
 						</div>
 						<div className="modal-body p-5 w-full h-full">
-							<form
-								onSubmit={(e) => {
-									e.preventDefault();
-								}}
-								className="max-w-xl m-4 text-left"
-							>
-								<div className="">
-									<input
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-										id="name"
-										name="name"
-										type="text"
-										required=""
-										placeholder="Name"
-										aria-label="Name"
-									/>
-								</div>
-								<div className="mt-6">
-									<input
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-										id="email"
-										name="email"
-										type="text"
-										required=""
-										placeholder="Email"
-										aria-label="Email"
-									/>
-								</div>
-
-
-								<div className="mt-6">
-									<textarea
-										className="w-full px-5 py-2 border dark:border-secondary-dark rounded-md text-md bg-secondary-light dark:bg-ternary-dark text-primary-dark dark:text-ternary-light"
-										id="message"
-										name="message"
-										cols="14"
-										rows="6"
-										aria-label="Details"
-										placeholder="Message"
-									></textarea>
-								</div>
-
-								<div className="mt-6 pb-4 sm:pb-1">
-									<span
-										onClick={onClose}
-										type="submit"
-										className="px-4
-											sm:px-6
-											py-2
-											sm:py-2.5
-											text-white
-											bg-indigo-500
-											hover:bg-indigo-600
-											rounded-md
-											focus:ring-1 focus:ring-indigo-900 duration-500"
-										aria-label="Submit Request"
-									>
-										<Button title="Send Request" />
-									</span>
-								</div>
-							</form>
+						<div className="text-left max-w-xl px-6">
+				<ul className="font-general-regular">
+					{contacts.map((contact) => (
+						<li className="flex " key={contact.id}>
+							<i className="text-2xl text-gray-500 dark:text-gray-400 mr-4">
+								{contact.icon}
+							</i>
+							<span className="text-lg mb-4 text-ternary-dark dark:text-ternary-light">
+								{contact.name}
+							</span>
+						</li>
+					))}
+				</ul>
+			</div>
 						</div>
 						<div className="modal-footer mt-2 sm:mt-0 py-5 px-8 border0-t text-right">
 							<span
