@@ -12,6 +12,8 @@ import react from "../../images/tools/react.svg";
 import tailwindcss from "../../images/tools/tailwindcss.svg";
 import typescript from '../../images/tools/typescript.svg'
 import profile from '../../images/profile.jpeg'
+import linkedin from '../../images/linkedin.svg'
+import github from '../../images/github.svg'
 
 const AppBanner = () => {
   const [activeTheme] = useThemeSwitcher();
@@ -79,6 +81,16 @@ const AppBanner = () => {
                   Download CV
                 </span>
               </a>
+            </div>
+            <div className="socials flex flex-col ">
+              <ul className="flex gap-10 justify-center mt-10">
+                <a href="https://www.linkedin.com/in/kmshamil">
+                  <li><img src={linkedin} alt="" /></li>
+                </a>
+                <a href="https://www.github.com/s7xdd">
+                  <li><img src={github} alt="" /></li>
+                </a>
+              </ul>
             </div>
           </div>
           {/* <div className="text-center mt-5">
