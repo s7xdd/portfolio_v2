@@ -79,7 +79,7 @@ export const projectsData = [
 		title: 'Blog App',
 		category: 'Full stack',
 		img: Blog,
-		href: "https://github.com/s7xdd/blog",
+		href: "https://blog-s7xdd.onrender.com/",
 	},
 	{
 		id: 4,
