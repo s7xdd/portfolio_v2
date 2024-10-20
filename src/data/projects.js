@@ -16,29 +16,34 @@ export const projectsData = [
 			publishDate: 'Jul 26, 2021',
 			tags: 'UI / Frontend',
 		},
+		href: "https://virtualworld-s7xdd.netlify.app/"
 	},
 	{
 		id: 2,
 		title: 'Fashion Store',
 		category: 'React',
 		img: Fashion,
+		href: "https://virtualworld-s7xdd.netlify.app/",
 	},
 	{
 		id: 3,
 		title: 'Blog App',
 		category: 'Full stack',
 		img: Blog,
+		href: "https://virtualworld-s7xdd.netlify.app/",
 	},
 	{
 		id: 4,
 		title: 'Book my Hotel',
 		category: 'Full stack',
 		img: Hotel,
+		href: "https://virtualworld-s7xdd.netlify.app/",
 	},
 	{
 		id: 5,
 		title: 'Web3 Crowdfunding',
 		category: 'React',
 		img: Web3,
+		href: "https://virtualworld-s7xdd.netlify.app/",
 	},
 ];
